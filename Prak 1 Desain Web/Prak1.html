@@ -10,12 +10,13 @@
 <body>
     <!-- Elemen Semantik -->
     <header>
-        <h1>Selamat Datang di Praktikum HTML5</h1>
+        <h1>Selamat Datang di Web Buah</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">Tentang</a></li>
+                <li><a href="#gambar">Gambar</a></li>
                 <li><a href="#contact">Kontak</a></li>
+                <li><a href="#daftar">Daftar Buah</a></li>
             </ul>
         </nav>
     </header>
@@ -23,30 +24,33 @@
     <main>
         <section id="home">
             <article>
-                <h2>Pengantar HTML5</h2>
-                <p>HTML5 adalah versi terbaru dari HTML yang menyertakan banyak elemen semantik baru untuk mempermudah struktur halaman.</p>
+                <h2>Pengantar Buah</h2>
+                <p>Buah adalah bagian dari tumbuhan yang berasal dari bunga dan biasanya berbiji. Buah merupakan organ yang berkembang dari bakal buah (ovarium) setelah proses penyerbukan.</p>
             </article>
         </section>
 
         <!-- Elemen Non-Semantik -->
         <div>
-            <h3>Elemen Non-Semantik</h3>
-            <p>Elemen seperti <code>&lt;div&gt;</code> dan <code>&lt;span&gt;</code> tidak memiliki makna khusus. Mereka digunakan untuk membungkus konten tanpa memberikan konteks struktural.</p>
+            <h3>Manfaat Buahk</h3>
+            <p>Mengonsumsi buah secara rutin dapat mengurangi terkena risiko penyakit jantung, diabetes tipe 2, obesitas, stroke dan kanker. Kandungan serat, air dan antioksidan dalam buah dapat membantu menjaga seluruh sistem pencernaan agar lebih sehat.</p>
         </div>
 
         <!-- Elemen Gambar -->
-        <section>
+        <section id="gambar">
             <h3>Contoh Gambar</h3>
             <img src="img/buah.webp" width= 200px "Contoh gambar">
         </section>
 
         <!-- Elemen Form -->
-        <section>
+        <section id="contact">
             <h3>Formulir Kontak</h3>
             <form action="#" method="post">
                 <label for="name">Nama:</label>
                 <input type="text" id="name" name="name" placeholder="Nama Depan">
                 <input type="text" id="name" name="name" placeholder="Nama Belakang">
+                <br><br>
+                <label for="email">No:</label>
+                <input type="email" id="email" name="email" placeholder="No Telepon">
                 <br><br>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="email@gamail.com">
@@ -71,31 +75,41 @@
         </section>
 
         <!-- Elemen Tabel -->
-        <section>
+        <section id="daftar">
             <h3>Daftar Harga Buah</h3>
             <table border="1">
                 <thead>
                     <tr>
+                        <th>No</th>
                         <th>Nama Buah</th>
                         <th>Harga /Kg</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
+                        <th>1.</th>
                         <td>Apel</td>
                         <td>Rp 25.000</td>
                     </tr>
                     <tr>
+                        <th>2.</th>
                         <td>Pisang</td>
                         <td>Rp 15.000</td>
                     </tr>
                     <tr>
+                        <th>3.</th>
                         <td>Jeruk</td>
                         <td>Rp 20.000</td>
                     </tr>
                     <tr>
+                        <th>4.</th>
                         <td>Anggur</td>
                         <td>Rp 35.000</td>
+                    </tr>
+                    <tr>
+                        <th>5.</th>
+                        <td>Kiwi</td>
+                        <td>Rp 45.000</td>
                     </tr>
                 </tbody>
             </table>
